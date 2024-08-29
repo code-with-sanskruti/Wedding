@@ -1,0 +1,54 @@
+.invite .title h1{
+    font-size: 3rem;
+    color: var(--clr2);
+    text-transform: none;
+    text-align: center;
+    letter-spacing: .2rem;
+    background-color: paleturquoise;
+
+}
+
+.invite .title p{
+    color: var(--clr3);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 2.5rem;
+    justify-content: flex-start;
+    background-color: palevioletred;
+}
+
+
+
+.invite .invitation-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.invite .invitation-row .invitation-box {
+    flex: 1 1 25rem;
+    margin: 1rem;
+    position: relative;
+    border: .2rem dotted var(--clr2);
+    padding: 2rem;
+    border-radius: .6rem;
+    overflow: hidden;
+    height: 30rem;
+}
+
+.invite .invitation-row .invitation-box:hover {
+    transition: .5s ease;
+    transform: translateX(2rem)
+}
+
+.invite .invitation-row .invitation-box img {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+.invite .invitation-row h1{
+    background-color: black;
+    color: white;
+}

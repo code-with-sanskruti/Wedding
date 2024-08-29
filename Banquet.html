@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .invite .title h1{
+    font-size: 3rem;
+    color: var(--clr2);
+    text-transform: none;
+    text-align: center;
+    letter-spacing: .2rem;
+    background-color: paleturquoise;
+
+}
+
+.invite .title p{
+    color: var(--clr3);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 2.5rem;
+    justify-content: flex-start;
+    background-color: palevioletred;
+}
+
+
+
+.invite .invitation-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.invite .invitation-row .invitation-box {
+    flex: 1 1 25rem;
+    margin: 1rem;
+    position: relative;
+    border: .2rem dotted var(--clr2);
+    padding: 2rem;
+    border-radius: .6rem;
+    overflow: hidden;
+    height: 30rem;
+}
+
+.invite .invitation-row .invitation-box:hover {
+    transition: .5s ease;
+    transform: translateX(2rem)
+}
+
+.invite .invitation-row .invitation-box img {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+.invite .invitation-row h1{
+    background-color: black;
+    color: white;
+}
+
+
+    </style>
+</head>
+<body>
+    <section class="invite" id="invite">
+        <div class="title">
+            <h1>Mehendi<span>Artist</span></h1>
+            <p>Choose the best mehendi artist.</p>
+        </div>
+        <div class="invitation-row">
+            <div class="invitation-box">
+                <img src="q1.jpg" alt="">
+                <h1>Sand and Sea</h1>
+               <h1>Price:</h1>
+                
+
+            </div>
+            <div class="invitation-box">
+                <img src="q2.jpg" alt="">
+                <h1>Modern Indian</h1>
+                <h1>Price:</h1>
+         </div>
+            <div class="invitation-box">
+                <img src="q3.jpg" alt="">
+              <h1>Chirping Birds</h1>
+              <h1>Price:</h1>
+            </div>
+            <div class="invitation-box">
+                <img src="q4.jpg" alt="">
+              <h1>Chirping Birds</h1>
+              <h1>Price:</h1>
+            </div>
+            
+            
+        </div>
+
+    </section>
+
+    
+</body>
+</html>

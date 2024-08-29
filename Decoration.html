@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* Mehendi styling */
+        .invite .title h1{
+    font-size: 3rem;
+    color: var(--clr2);
+    text-transform: none;
+    text-align: center;
+    letter-spacing: .2rem;
+    background-color: palegreen;
+    color: green;
+
+}
+
+.invite .title p{
+    color: var(--clr3);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 2.5rem;
+    justify-content: flex-start;
+    background-color: palevioletred;
+}
+
+
+
+.invite .invitation-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #8ABC40;
+}
+
+.invite .invitation-row .invitation-box {
+    flex: 1 1 25rem;
+    margin: 1.5;
+    position: relative;
+    border: .2rem dotted var(--clr2);
+    padding: 2rem;
+    border-radius: .6rem;
+    overflow: hidden;
+    height: 30rem;
+}
+
+.invite .invitation-row .invitation-box:hover {
+    transition: .5s ease;
+    transform: translateX(2rem)
+}
+
+.invite .invitation-row .invitation-box img {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+}
+.invite .invitation-row h1{
+    background-color: black;
+    color: white;
+}
+
+
+/* haldi styling */
+
+.man .book h1{
+    font-size: 3rem;
+    color: var(--clr2);
+    text-transform: none;
+    text-align: center;
+    letter-spacing: .2rem;
+    background-color: peru ;
+    color:yellow ;
+
+}
+
+.man .invitation-rr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #FFD125;
+}
+.man .invitation-rr .invitation-table{
+    flex: 1 1 25rem;
+    margin: 1.5;
+    position: relative;
+    border: .2rem dotted var(--clr2);
+    padding: 2rem;
+    border-radius: .6rem;
+    overflow: hidden;
+    height: 30rem;
+
+}
+
+.man .invitation-rr .invitation-table:hover{
+    transition: .5s ease;
+    transform: translateX(2rem);
+
+
+}
+.man .invitation-rr .invitation-table img{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+
+}
+.man .invitation-rr h1{
+    background-color: black;
+    color: white;
+}
+
+/* sangeet styling */
+.song .Neha h1{
+    font-size: 3rem;
+    color: var(--clr2);
+    text-transform: none;
+    text-align: center;
+    letter-spacing: .2rem;
+    background-color: palevioletred ;
+    color:plum ;
+
+}
+.song .invi-ss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #c78EFF;
+}
+.song .invi-ss .invi-dd{
+    flex: 1 1 25rem;
+    margin: 1.5;
+    position: relative;
+    border: .2rem dotted var(--clr2);
+    padding: 2rem;
+    border-radius: .6rem;
+    overflow: hidden;
+    height: 30rem;
+
+}
+.song .invi-ss .invi-dd:hover{
+    transition: .5s ease;
+    transform: translateX(2rem);
+}
+.song .invi-ss .invi-dd img{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+
+}
+.song .invi-ss h1{
+    background-color: black;
+    color: white;
+}
+
+
+/* phera styling */
+.sing .Sakshi h1{
+    font-size: 3rem;
+    color: var(--clr2);
+    text-transform: none;
+    text-align: center;
+    letter-spacing: .2rem;
+    background-color: rosybrown ;
+    color:red ;
+}
+.sing .invit-pp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: brown;
+}
+.sing .invit-pp .invit-hh{
+    flex: 1 1 25rem;
+    margin: 1.5;
+    position: relative;
+    border: .2rem dotted var(--clr2);
+    padding: 2rem;
+    border-radius: .6rem;
+    overflow: hidden;
+    height: 30rem;
+
+}
+.sing .invit-pp .invit-hh:hover{
+    transition: .5s ease;
+    transform: translateX(2rem);
+}
+.sing .invit-pp .invit-hh img{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+
+}
+.sing .invit-pp h1{
+    background-color: black;
+    color: white;
+}
+
+
+/* reception decoration */
+.dance .Gauri h1{
+    font-size: 3rem;
+    color: var(--clr2);
+    text-transform: none;
+    text-align: center;
+    letter-spacing: .2rem;
+    background-color: #ffa2ac ;
+    color:#96809a ;
+}
+.dance .invitat-ee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #FE036A;
+}
+.dance .invitat-ee .invitat-cc{
+    flex: 1 1 25rem;
+    margin: 1.5;
+    position: relative;
+    border: .2rem dotted var(--clr2);
+    padding: 2rem;
+    border-radius: .6rem;
+    overflow: hidden;
+    height: 30rem;
+
+}
+.dance .invitat-ee .invitat-cc:hover{
+    transition: .5s ease;
+    transform: translateX(2rem);
+}
+.dance .invitat-ee .invitat-cc img{
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+
+}
+.dance .invitat-ee h1{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <section class="invite" id="invite">
+        <div class="title">
+            <h1>Mehendi <span> Decoration</span></h1>
+           
+        </div>
+        <div class="invitation-row">
+            <div class="invitation-box">
+                <img src="mvid.png" alt="">
+                <h1>Sand and Sea</h1>
+               <h1>Price:</h1>
+                
+
+            </div>
+            <div class="invitation-box">
+                <img src="m2.jpg" alt="">
+                <h1>Modern Indian</h1>
+                <h1>Price:</h1>
+         </div>
+            <div class="invitation-box">
+                <img src="m5.jpg" alt="">
+              <h1>Chirping Birds</h1>
+              <h1>Price:</h1>
+            </div>
+            <!-- <div class="invitation-box">
+                <img src="m5.jpg">
+                <h1>Traditional</h1>
+                <h1>Price:</h1>
+            </div>
+            <div class="invitation-box">
+                <img src="card-5.jpg" alt="">
+                <h1>Fairy Lights</h1>
+                <h1>Price:</h1>
+            </div>
+            <div class="invitation-box">
+                <img src="card-6.jpg" alt="">
+                <h1>Petals Of Love</h1>
+                <h1>Price:</h1>
+            </div>
+            <div class="invitation-box">
+                <img src="card-7.jpg" alt="">
+                <h1>Royal Tusker</h1>
+                <h1>Price:</h1>
+            </div>
+            <div class="invitation-box">
+                <img src="card-8.jpg" alt="">
+               <h1>Sweet Shimmer</h1>
+               <h1>Price:</h1>
+            </div>
+            <div class="invitation-box">
+                <img src="card-9.jpg" alt="">
+                <h1>Wintage Meadow</h1>
+                <h1>Price:</h1>
+            </div>
+            <div class="invitation-box">
+                <img src="card-10.jpg" alt="">
+                <h1>Shubharambh</h1>
+                <h1>Price:</h1>
+            </div>
+            <div class="invitation-box">
+                <img src="card-11.jpg" alt="">
+               <h1>Shubhvivah</h1>
+               <h1>Price:</h1>
+            </div>
+            <div class="invitation-box">
+                <img src="card-12.jpg" alt="">
+                <h1>Old Heritage</h1>
+                <h1>Price:</h1>
+                
+            </div> -->
+        </div>
+    </section>
+
+
+
+    <section class="man" id="man">
+        <div class="book">
+            <h1>Haldi <span> Decoration</span></h1>
+           
+        </div>
+        <div class="invitation-rr">
+            <div class="invitation-table">
+                <img src="h1.jpg" alt="">
+                <h1>Sand and Sea</h1>
+               <h1>Price:</h1>
+                
+
+            </div>
+            <div class="invitation-table">
+                <img src="h2.jpg" alt="">
+                <h1>Modern Indian</h1>
+                <h1>Price:</h1>
+         </div>
+            <div class="invitation-table">
+                <img src="h4.jpg" alt="">
+              <h1>Chirping Birds</h1>
+              <h1>Price:</h1>
+            </div>
+        </div>
+    </section>
+
+
+
+     <section class="song" id="song">
+        <div class="Neha">
+            <h1>Sangeet <span> Decoration</span></h1>
+           
+        </div>
+        <div class="invi-ss">
+            <div class="invi-dd">
+                <img src="s1.jpg" alt="">
+                <h1>Sand and Sea</h1>
+               <h1>Price:</h1>
+                
+
+            </div>
+            <div class="invi-dd">
+                <img src="s2.jpg" alt="">
+                <h1>Modern Indian</h1>
+                <h1>Price:</h1>
+         </div>
+            <div class="invi-dd">
+                <img src="s3.jpg" alt="">
+              <h1>Chirping Birds</h1>
+              <h1>Price:</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="sing" id="sing">
+        <div class="Sakshi">
+            <h1>Phera <span> Decoration</span></h1>
+           
+        </div>
+        <div class="invit-pp">
+            <div class="invit-hh">
+                <img src="p1.jpg" alt="">
+                <h1>Sand and Sea</h1>
+               <h1>Price:</h1>
+                
+
+            </div>
+            <div class="invit-hh">
+                <img src="p2.jpg" alt="">
+                <h1>Modern Indian</h1>
+                <h1>Price:</h1>
+         </div>
+            <div class="invit-hh">
+                <img src="p4.jpg" alt="">
+              <h1>Chirping Birds</h1>
+              <h1>Price:</h1>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="dance" id="dance">
+        <div class="Gauri">
+            <h1>Reception <span> Decoration</span></h1>
+           
+        </div>
+        <div class="invitat-ee">
+            <div class="invitat-cc">
+                <img src="r1.jpg" alt="">
+                <h1>Sand and Sea</h1>
+               <h1>Price:</h1>
+                
+
+            </div>
+            <div class="invitat-cc">
+                <img src="r4.jpg" alt="">
+                <h1>Modern Indian</h1>
+                <h1>Price:</h1>
+         </div>
+            <div class="invitat-cc">
+                <img src="r3.jpg" alt="">
+              <h1>Chirping Birds</h1>
+              <h1>Price:</h1>
+            </div>
+        </div>
+    </section>
+
+
+
+
+  
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+  
+
+
+    
+    
+
+
+
+
+
+
+
+    
+</body>
+</html>
